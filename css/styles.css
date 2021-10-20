@@ -1,0 +1,171 @@
+
+body *{
+  font-family: 'Montserrat Alternates';
+  
+}
+.tindog-logo{
+  font-family: 'Dancing Script', cursive;
+  color:#F6F6F6;
+  
+}
+/*
+#features h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+* p{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+*/
+
+#title{
+  background-color: #ff4c68;
+  /*font-family: 'Montserrat Alternates', sans-serif;*/
+  padding: 5%;
+}
+
+.title-first{
+  padding: 7% ;
+  margin-bottom: 2rem;
+}
+
+
+#title h1 {
+  /* font-family: 'Oxygen', sans-serif; */
+  
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+  
+}
+/*
+#title .container-fluid {
+  
+  padding: 7% 15%;
+}
+*/
+
+#title img{
+  margin-top: 2rem;
+  width: 80%;
+  transform: rotate(25deg);
+  position: absolute;
+  
+}
+#title .navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.download-btn {
+  margin : 3%;
+ 
+}
+/*
+#title .title{
+  padding-bottom: 5rem;
+}
+*/
+
+#features {
+  padding: 7% 15%;
+  background-color: #FFFFFF;
+  position: relative ;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 3%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom : 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+}
+
+* p{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+#testimonials {
+  color : #fff;
+  background-color: #ef8172;
+  text-align: center;
+  
+}
+#testimonials h2 {
+  font-family: 'Ubuntu' , sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 7% 15%;
+}
+#testimonials .dog-image {
+  width :4rem;
+  border-radius: 100%;
+  margin : 1rem;
+}
+#press{
+  margin: -1px;
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#testimonials .carousal-item{
+    padding: 7% 15%;
+  
+}
+#pricing {
+  padding:7%;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+#pricing .card{
+  margin: 1rem;
+}
+#pricing h3 {
+  font-weight: bold;
+}
+#pricing button{
+  font-weight: bold;
+}
+
+@media (max-width:900px) {
+  #title {
+    text-align: center;
+  }
+  #title img{
+    transform: rotate(0);
+    position:static;
+  }
+  
+}
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  
+}
+#cta h3{
+  color:#fff;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+#footer{
+  text-align: center;
+  padding:7% 15% 0;
+}
+#footer i{
+  margin: 2%;
+}
